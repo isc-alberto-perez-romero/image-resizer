@@ -1,0 +1,22 @@
+{
+  "name": "own-image-resizer",
+  "version": "1.0.0",
+  "description": "My own image resizer for quick image processing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Pérez Romero",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.16.1"
+  },
+  "dependencies": {
+    "busboy-body-parser": "^0.3.2",
+    "colors": "^1.3.3",
+    "connect-busboy": "0.0.2",
+    "express": "^4.16.4",
+    "sharp": "^0.21.3",
+    "streamifier": "^0.1.1"
+  }
+}
